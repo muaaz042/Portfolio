@@ -1,0 +1,46 @@
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover{
+    color: #6070FF;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.nav-link{
+    font-weight: 500;
+}
+.home-section{
+    background-image: url('../imgs/header-bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span{
+    color: #7F8CFF;
+}
+.content-div{
+    position: relative;
+    top: 170px;
+}
+.media-icons{
+    color: #505F79;
+    font-size: 1.5rem;
+}
+
+@media (max-width:375px) {
+    .content-div{
+        position: relative;
+        top: 8%;
+    }
+}
+
+@media (max-width:992px) {
+    .content-div{
+        position: relative;
+        top: 30%;
+    }
+}
+
