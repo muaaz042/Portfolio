@@ -4,10 +4,13 @@
     color: #6070FF;
 }
 .navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
+.navbar-toggler:active{
     outline: none;
     box-shadow: none;
+}
+.toggler-icon{
+    color: #7F8CFF;
+    border-color: #7F8CFF;
 }
 .nav-link{
     font-weight: 500;
@@ -15,7 +18,7 @@
 .home-section{
     background-image: url('../imgs/header-bg.svg');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 span{
@@ -29,11 +32,17 @@ span{
     color: #505F79;
     font-size: 1.5rem;
 }
+.home-section-div{
+    padding:3rem 0px 3rem 1.5rem;
+}
 
 @media (max-width:375px) {
     .content-div{
         position: relative;
         top: 8%;
+    }
+    .home-section-div{
+        padding: 0px 0px 0px 23px;
     }
 }
 
