@@ -44,6 +44,11 @@ span{
     .home-section-div{
         padding: 0px 0px 0px 23px;
     }
+    .home-section{
+        background-image: url('../imgs/header-shapes\ mobile@2x.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width:992px) {
