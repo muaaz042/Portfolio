@@ -15,11 +15,17 @@
 .nav-link{
     font-weight: 500;
 }
+.nav-link:hover{
+    color: #fff;
+    background-color: #6070ff;
+    border-radius: 0.5rem;
+}
 .home-section{
     background-image: url('../imgs/header-bg.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    
 }
 span{
     color: #7F8CFF;
@@ -39,7 +45,7 @@ span{
 @media (max-width:375px) {
     .content-div{
         position: relative;
-        top: 8%;
+        top: 15%;
     }
     .home-section-div{
         padding: 0px 0px 0px 23px;
@@ -49,7 +55,14 @@ span{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    .card-image img{
+        width: 330px;
+    }
+    .work-container {
+        margin: 6rem 0;
+    }
 }
+
 
 @media (max-width:992px) {
     .content-div{
@@ -58,3 +71,83 @@ span{
     }
 }
 
+.card-languages {
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: 3%;
+    background-color: #ebebff;
+    color: #6070ff;
+}
+
+.card-btn {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    border: 2px solid #6070ff;
+    color: #6070ff;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.card-btn:hover {
+    color: #fff;
+    background-color: #6070ff;
+}
+
+.fa-circle {
+    font-size: 0.5rem;
+    color: #85878b;
+}
+
+.card-subtitle h5:nth-child(3),
+.card-subtitle h5:nth-child(5) {
+  color: #85878b;
+  font-size: 1rem;
+}
+
+.work-section {
+    background-color: #DFE1E6;
+    border: 1px solid #DFE1E6;
+}
+
+.work-container {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    display: grid;
+    gap: 7rem;
+}
+
+.card-image{
+    padding-bottom: 0.8rem;
+}
+
+.about-btn {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    border: 2px solid #6070ff;
+    color: #6070ff;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+  
+.about-btn:hover {
+    color: #fff;
+    background-color: #6070ff;
+}
+
+.about-section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.about-language {
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color: #f7f7f9;
+    padding: 0.5rem;
+  }
