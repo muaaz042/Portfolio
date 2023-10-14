@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;   
+}
+
 .navbar-brand,
 .navbar-brand:focus,
 .navbar-brand:hover{
@@ -55,11 +61,24 @@ span{
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .card-image img{
-        width: 330px;
+
+    .form-content{
+        padding: 0px !important;
+        gap: 0.5rem !important;
+        width: 20rem !important;
     }
     .work-container {
         margin: 6rem 0;
+    }
+
+    .form-section{
+        background-image: url(../imgs/contact-form-mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .form-main-section{
+        padding: 0.5rem !important;
     }
 }
 
@@ -150,4 +169,49 @@ span{
     border-radius: 0.5rem;
     background-color: #f7f7f9;
     padding: 0.5rem;
-  }
+}
+
+.form-main-section{
+    background-color: #6070FF;
+    border-top-left-radius: 6rem;
+}
+
+.form-section{
+    background-image: url(../imgs/contact-form.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.form input {
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+  
+.form textarea {
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}  
+
+.form-btn {
+    border-radius: 0.5rem;
+    width: 10rem;
+    color: #6070ff;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    transition: all 0.5s;
+}
+  
+.form-btn:hover {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
